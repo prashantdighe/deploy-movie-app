@@ -1,0 +1,69 @@
+
+.cat-title{
+    color: #ffe893;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    text-transform: uppercase;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+.card {
+    display: inline-block;
+    margin: 10px 20px;
+  }
+.movie-flex{
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+.movie-flex p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 5px;
+}
+.movie-flex a{
+  text-decoration: none;
+}
+.genre-btn{
+    position: relative;
+    background-color: #2d2d2d;
+    color: rgb(245 197 24);
+    font-size: 16px;
+    margin: 2px 5px;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    font-weight: 600;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15)!important;
+    border-radius: 18px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.genre-btn:hover{
+    background-color: #272727;
+    color: rgb(245 197 24);
+    box-shadow: 0 .5rem 1rem rgba(255, 196, 0, 0.15)!important;
+}
+.genre-btn p{
+    margin-bottom: 0rem;
+}
+::-webkit-scrollbar {
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 5px !important;
+  }
+  ::-webkit-scrollbar-track {
+    background: #292929d3;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.705); 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 0.87); 
+  }

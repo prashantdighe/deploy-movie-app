@@ -1,0 +1,35 @@
+<section class="moviebg" style=" background-image: url(https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces{{movieData.backdrop_path}});">
+    <section class="moviebgclr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="movieimg" src="https://www.themoviedb.org/t/p/w220_and_h330_face{{movieData.poster_path}}">
+                </div>
+                <div class="col-md-8">
+                   <div class="movieInfo">
+                        <h3>{{movieData.original_title}}</h3>
+                        <div class="movedata mb-3">
+                            <p>Release Date</p>
+                            <p class="movedatatext">{{movieData.release_date }}</p>
+                        </div>
+                        <div class="movedata mb-3">
+                            <p>populariity</p>
+                            <p class="movedatatext">{{movieData.popularity}}</p>
+                        </div>
+                        <div class="movedata mb-3">
+                            <p>revenue</p>
+                            <p class="movedatatext">{{movieData.revenue}}</p>
+                        </div>
+                        <div class="movedata mb-3">
+                            <p>language</p>
+                            <p class="movedatatext">{{movieData.original_language}}</p>
+                        </div>
+                        
+                        <p class="overdes mb-3"><span class="over">Overview:</span><br> {{movieData.overview}}</p>
+                        <a href="" class="btn btn-danger mt-2"> BACK</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>

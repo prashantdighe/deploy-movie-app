@@ -1,0 +1,27 @@
+<section class="mt-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <button  class="btn genre-btn" (click)=getMoviesByGenre(genre.id) *ngFor="let genre of genreList">{{genre.name}}</button> 
+            </div>
+        </div>
+    </div>
+</section>
+<section class="mt-3">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="scrolling-wrapper">
+                    <div class="card m-3 movie-flex" *ngFor="let data of movieData">
+                       <a routerLink='/movieDeatils/{{data.id}}'>
+                        <div>
+                            <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/{{data.poster_path}}" width="200px" alt="{{data.original_title}">
+                           <p>{{data.original_title}}</p>
+                        </div>
+                       </a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>

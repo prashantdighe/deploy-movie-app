@@ -1,0 +1,55 @@
+.moviebg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.movieimg{
+    padding: 70px 20px;   
+}
+.movieInfo{
+    padding: 70px 20px;
+}
+.movieInfo h3{
+    font-weight: 800;
+    color: white;
+}
+.movieInfo p{
+    margin-bottom: 0rem;
+    
+}
+.moviebgclr{
+    background: #00000075; 
+    background-image: linear-gradient(to right, rgba(9, 11, 22, 0.808) 150px, rgba(8.24%, 3.53%, 9.02%, 0.84) 100%);
+}
+.over{
+    font-weight: 700;
+    color: #f4c418;
+    font-size: 18px;
+}
+.resdata{
+    color: rgba(255, 255, 255, 0.63);
+}
+.overdes{
+    background: #0001008f;
+    padding: 20px;
+    color: white;
+    border-radius: 6px;
+}
+.movedata{
+    background: #FDC830;
+    background: -webkit-linear-gradient(to right, #ff6315, #ffc21b);
+    background: linear-gradient(to right, #fc9208, #ffc21b);    
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 5px ;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    border-radius: 5px;
+}
+.movedatatext{
+    font-size: 16px;
+    color: rgb(14, 14, 14);
+}
